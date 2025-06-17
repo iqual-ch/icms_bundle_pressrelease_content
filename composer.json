@@ -1,0 +1,16 @@
+{
+  "name": "iqual/icms_bundle_pressrelease_content",
+  "type": "drupal-recipe",
+  "description": "Provide default content for the ICMS Press Release.",
+  "keywords": ["ICMS", "content", "recipe", "Drupal recipes", "drupal recipe"],
+  "license": ["GPL-2.0-or-later"],
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://support-iqual.atlassian.net/wiki/spaces/LOMA/pages/4308140078/Pressemitteilung",
+    "source": "https://github.com/iqual-ch/blokkli-starterkit-sw-experiment"
+  },
+  "require": {
+    "iqual/icms_bundle_pressrelease": "^1.0"
+  },
+  "version": "1.x-dev"
+}
