@@ -10,7 +10,8 @@
     "source": "https://github.com/iqual-ch/blokkli-starterkit-sw-experiment"
   },
   "require": {
-    "iqual/icms_bundle_pressrelease": "^1.0"
+    "iqual/icms_bundle_pressrelease": "^1.0",
+    "iqual/icms_base_content": "^1.0"
   },
   "version": "1.x-dev"
 }

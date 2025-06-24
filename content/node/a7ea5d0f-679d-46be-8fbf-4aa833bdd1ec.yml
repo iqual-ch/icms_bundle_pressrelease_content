@@ -1,0 +1,90 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a7ea5d0f-679d-46be-8fbf-4aa833bdd1ec
+  bundle: icms_pressrelease
+  default_langcode: de
+  depends:
+    d99e7252-4555-4701-a788-25befa086176: user
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
+    73a2d543-f54a-4839-82e8-b47627635b66: taxonomy_term
+    b64307f3-9232-4837-a09d-dcfd877ad189: taxonomy_term
+    f8a1a06a-c8bd-4efc-bc59-8feee29d4808: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  title:
+    -
+      value: 'Pressemitteilung 3 Alle Themen'
+  created:
+    -
+      value: 1750149954
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Pressemitteilung 3 Alle Themen | ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/de/pressemitteilung/pressemitteilung-3-alle-themen'
+  path:
+    -
+      alias: /pressemitteilung/pressemitteilung-3-alle-themen
+      langcode: de
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1750150005
+      last_comment_name: ''
+      last_comment_uid: 17
+      comment_count: 0
+  field_icms_teaser_image:
+    -
+      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+  field_icms_teaser_pretitle:
+    -
+      value: 'Alle Themen'
+  field_icms_teaser_text:
+    -
+      value: '<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua</p>'
+      format: icms_restricted
+  field_icms_teaser_title:
+    -
+      value: 'Pressemitteilung 3'
+  field_icms_topics:
+    -
+      entity: 73a2d543-f54a-4839-82e8-b47627635b66
+    -
+      entity: b64307f3-9232-4837-a09d-dcfd877ad189
+    -
+      entity: f8a1a06a-c8bd-4efc-bc59-8feee29d4808

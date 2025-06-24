@@ -1,24 +1,25 @@
 _meta:
   version: '1.0'
   entity_type: menu_link_content
-  uuid: 7823ab59-f1c7-48f7-9471-2eea4c034c87
+  uuid: 41f0883f-8006-4447-8119-dea4d5f85e05
   bundle: main
   default_langcode: de
   depends:
-    cd580567-d448-41b4-88e2-0d6914d0d821: node
+    adb39aa8-a801-4028-9cb8-d4c05d869db3: node
+    d99e7252-4555-4701-a788-25befa086176: user
 default:
   enabled:
     -
       value: true
   title:
     -
-      value: 'Pressemitteilungen Übersicht'
+      value: Pressemitteilungen
   menu_name:
     -
       value: main
   link:
     -
-      target_uuid: cd580567-d448-41b4-88e2-0d6914d0d821
+      target_uuid: adb39aa8-a801-4028-9cb8-d4c05d869db3
       title: ''
       options: {  }
   external:
@@ -46,7 +47,7 @@ default:
       tag: link
       attributes:
         rel: canonical
-        href: 'https://starterkit.ddev.site/de'
+        href: 'http://default/de'
   content_translation_source:
     -
       value: und
@@ -55,10 +56,10 @@ default:
       value: false
   content_translation_uid:
     -
-      target_id: 1
+      entity: d99e7252-4555-4701-a788-25befa086176
   content_translation_status:
     -
       value: true
   content_translation_created:
     -
-      value: 1750083459
+      value: 1750400351
