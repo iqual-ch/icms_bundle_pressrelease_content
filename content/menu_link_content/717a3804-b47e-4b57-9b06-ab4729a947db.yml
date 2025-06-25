@@ -1,0 +1,69 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 717a3804-b47e-4b57-9b06-ab4729a947db
+  bundle: main
+  default_langcode: en
+  depends:
+    41f0883f-8006-4447-8119-dea4d5f85e05: menu_link_content
+    7de0e1cb-8317-4e10-ac62-4c03c8185e4b: node
+    d99e7252-4555-4701-a788-25befa086176: user
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Pressemitteilung manueller Filter'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 7de0e1cb-8317-4e10-ac62-4c03c8185e4b
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:41f0883f-8006-4447-8119-dea4d5f85e05'
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/en'
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  content_translation_status:
+    -
+      value: true
+  content_translation_created:
+    -
+      value: 1750751528
