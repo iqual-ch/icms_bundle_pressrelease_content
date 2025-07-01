@@ -3,7 +3,7 @@ _meta:
   entity_type: node
   uuid: 7de0e1cb-8317-4e10-ac62-4c03c8185e4b
   bundle: icms_page
-  default_langcode: en
+  default_langcode: de
   depends:
     d99e7252-4555-4701-a788-25befa086176: user
     73a2d543-f54a-4839-82e8-b47627635b66: taxonomy_term
@@ -51,11 +51,11 @@ default:
       tag: link
       attributes:
         rel: canonical
-        href: 'http://default/en/pressemitteilungen/pressemitteilung-manueller-filter'
+        href: 'http://default/de/pressemitteilungen/pressemitteilung-manueller-filter'
   path:
     -
       alias: /pressemitteilungen/pressemitteilung-manueller-filter
-      langcode: en
+      langcode: de
       pathauto: 1
   content_translation_source:
     -
@@ -84,7 +84,7 @@ default:
           entity_type: paragraph
           uuid: 6361d5a2-8459-43ec-a7f9-a1619c443652
           bundle: icms_layout_pressrelease
-          default_langcode: en
+          default_langcode: de
         default:
           status:
             -
