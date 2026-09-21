@@ -90,9 +90,6 @@ default:
           field_icms_pretitle:
             -
               value: 'ICMS Bundle'
-          field_icms_subtitle:
-            -
-              value: 'Official announcements in chronological order.'
           field_icms_text:
             -
               value: '<p>The Press releases bundle publishes official announcements with date and topics in a chronological listing.</p>'
@@ -123,9 +120,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'ICMS Bundle'
-            field_icms_subtitle:
-              -
-                value: 'Offizielle Mitteilungen in chronologischer Reihenfolge.'
             field_icms_text:
               -
                 value: '<p>Das Medienmitteilungen-Bundle publiziert offizielle Mitteilungen mit Datum und Themen in einer chronologischen Liste.</p>'
@@ -149,9 +143,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'ICMS Bundle'
-            field_icms_subtitle:
-              -
-                value: 'Communications officielles par ordre chronologique.'
             field_icms_text:
               -
                 value: '<p>Le bundle Communiqués de presse publie des communications officielles avec date et thèmes dans une liste chronologique.</p>'
@@ -175,9 +166,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'ICMS Bundle'
-            field_icms_subtitle:
-              -
-                value: 'Comunicazioni ufficiali in ordine cronologico.'
             field_icms_text:
               -
                 value: '<p>Il bundle Comunicati stampa pubblica comunicazioni ufficiali con data e temi in un elenco cronologico.</p>'
